@@ -1,0 +1,123 @@
+*{
+    background-color: rgb(243, 240, 232);
+}
+
+header {
+    background-color: rgb(192, 226, 196);
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(159, 11, 178);              /* Sets text color to blue */
+    text-align: center;       /* Centers the text */
+    font-family: Arial;
+    padding-top: 20px;
+    top: 0;       /* Changes the font style */
+}
+
+nav {
+    background-color: transparent;
+}
+
+ul {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li {
+    background-color: transparent;
+    padding: 20px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li :hover {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+}
+
+main {
+    width: 60%;
+    margin:  0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    margin: 10px 30px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+courses table tr {
+    padding-top: 10px;
+}
+
+button {
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button :hover {
+    background-color: green;
+}
+
+.data {
+    display: flex;
+}
+
+.data label {
+    padding-top: 8px;
+    width: 20%;
+}
+
+.data input {
+    margin: 6px;
+}
+
+footer {
+    display: flex;
+}
+
+footer h3 {
+    margin: auto;
+    color: blue;
+}
+
+.address {
+    margin: auto;
+}

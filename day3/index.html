@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Courses</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                padding: 3px;
+            }
+            td {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="title" id="title">Musical Instrument Courses</h1>
+            <p>We provide many courses for variety musical instrument from beginning level to advance level.</p>
+            <div class="talented-student">
+                <h4>We are proudly announces our hornorable students that achieve many statewide contest:</h4>
+                <div class="hornor-student">
+                    <table>
+                        <tr>
+                            <th>Student</th>
+                            <th>Talent</th>
+                            <th>Age</th>
+                            <th>Achievement</th>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Piano</td>
+                            <td>12</td>
+                            <td>Gold medal</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>Violin</td>
+                            <td>16</td>
+                            <td>Silver medal</td>
+                        </tr>
+                        <tr>
+                            <td>John Smith</td>
+                            <td>Guitar</td>
+                            <td>19</td>
+                            <td>Bronze medal</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="course-intro" id="course-intro">
+                <p>Here is the list of our courses available</p>
+                <div class="course-detail" id="course-detail">
+                   <table>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr class="guitar-beginner">
+                        <td style="color:blue">Beginner Guitar</td>
+                        <td>4 months</td>
+                        <td>$199.99</td>
+                    </tr>
+                    <tr class="guitar-advance">
+                        <td style="color:blue">Advance Guitar</td>
+                        <td>2 months</td>
+                        <td>$399.99</td>
+                    </tr>
+                    <tr class="violin-beginner">
+                        <td style="color:blue">Beginner Violin</td>
+                        <td>3 months</td>
+                        <td>$239.99</td>
+                    </tr>
+                    <tr class="violin-advance">
+                        <td style="color:blue">Advance Violin</td>
+                        <td>8 months</td>
+                        <td>$439.99</td>
+                    </tr>
+                    <tr class="piano-beginner">
+                        <td style="color:blue">Beginner Piano</td>
+                        <td>2 months</td>
+                        <td>$199.99</td>
+                    </tr>
+                    <tr class="piano-advance">
+                        <td style="color:blue">Advance Piano</td>
+                        <td>6 months</td>
+                        <td>$399.99</td>
+                    </tr>
+                   </table> 
+                </div>
+            </div>
+            <div class="enroll" id="enroll">
+                <h3>Enroll your course now:</h3>
+                <div class="person-info" id="person-info">
+                    <h5>Your Information:</h5>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" />
+                    <br/>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" />
+                    <br/>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" />
+                    <br/>
+                </div>
+                <div class="course-info" id="course-info">
+                    <h5>Select your course:</h5>
+                    <input type="checkbox" id="guitar-beginner">
+                    <label for="guitar-beginner">Beginner Guitar</label>
+                    <br/>
+                    <input type="checkbox" id="guitar-advance">
+                    <label for="guitar-advance">Advance Guitar</label>
+                    <br/>
+                    <input type="checkbox" id="violin-beginner">
+                    <label for="violin-beginner">Beginner Violin</label>
+                    <br/>
+                    <input type="checkbox" id="violin-advance">
+                    <label for="violin-advance">Advance Violin</label>
+                    <br/>
+                    <input type="checkbox" id="piano-beginner">
+                    <label for="piano-beginner">Beginner Piano</label>
+                    <br/>
+                    <input type="checkbox" id="piano-advance">
+                    <label for="piano-advance">Advance Piano</label>
+                    <br/>
+                </div>
+                <div class="time">
+                    <h5>Select Your Suitable Timeframe</h5>
+                    <input id="weekdays" type="radio" name="timeframe" value="weekdays">
+                    <label for="weekdays">During the weekdays: (8AM to 10AM)</label>
+                    <br/>
+                    <input id="weekends" type="radio" name="timeframe" value="weekdends">
+                    <label for="weekends">During the weekends: (8AM to 10AM)</label>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
