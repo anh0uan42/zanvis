@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="script.js"></script>
+        <title>Musical Courses</title>
+    </head>
+    <body>
+        <header>
+            <h1>Talented Musical School</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#student">Hornorable Student</a></li>
+                    <li><a href="#courses">Course Detail</a></li>
+                    <li><a href="#enroll">Enrollment</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="intro" id="intro">
+                <h3>About Us</h3>
+                <p>Talented Musical School was establish in 2010 and have more than 500 students every year. Majority of our student after finish from the school are continue to pursue professional carreer in musical and entertainment industry. Most of our instructor are from well-known musical institute, famous perfomers, and popular musical producer. We not only teaching a skill, we also guide out student to the right path of their carreer, the one that lead to success.</p>
+            </section>
+            <section class="student" id="student">
+                <h3>Hornorable Students</h3>
+                <p>Throught out the years, we trained and teach many of our students to success. Some of our student are even won some medals from our state contest.</p>
+                <table>
+                    <tr>
+                        <th>Student</th>
+                        <th>Talent</th>
+                        <th>Age</th>
+                        <th>Achievement</th>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Piano</td>
+                        <td>12</td>
+                        <td>Gold medal</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Doe</td>
+                        <td>Violin</td>
+                        <td>16</td>
+                        <td>Silver medal</td>
+                    </tr>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>Guitar</td>
+                        <td>19</td>
+                        <td>Bronze medal</td>
+                    </tr>
+                </table>
+                <div class="media" id="media">
+                    <h3>Here is some examples of your talented students&apos; works:</h3>
+                    <p>Some of our beautiful recordings:</p>
+                    <div class="audio">
+                        <audio controls>
+                            <source src="audio/violin.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio controls>
+                            <source src="audio/violin2.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio controls>
+                            <source src="audio/violin3.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <p>Our beautiful video footage:</p>
+                    <div class="video">
+                        <div>
+                            <video width="500" controls>
+                                <source src="videos/video2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div>
+                            <video width="500" controls>
+                                <source src="videos/video1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5v9qO37qp2U?si=fMw4C0-7yJmwnCDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="courses" id="courses">
+                <h3>Our Course for Future Talents</h3>
+                <p>We provide variety of courses from beginner to advance level for everyone to be able to startr their musical carreer path:</p>
+                <table>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr class="guitar-beginner">
+                        <td style="color:blue">Beginner Guitar</td>
+                        <td>4 months</td>
+                        <td>&euro;199.99</td>
+                    </tr>
+                    <tr class="guitar-advance">
+                        <td style="color:blue">Advance Guitar</td>
+                        <td>2 months</td>
+                        <td>&euro;399.99</td>
+                    </tr>
+                    <tr class="violin-beginner">
+                        <td style="color:blue">Beginner Violin</td>
+                        <td>3 months</td>
+                        <td>&euro;239.99</td>
+                    </tr>
+                    <tr class="violin-advance">
+                        <td style="color:blue">Advance Violin</td>
+                        <td>8 months</td>
+                        <td>&euro;439.99</td>
+                    </tr>
+                    <tr class="piano-beginner">
+                        <td style="color:blue">Beginner Piano</td>
+                        <td>2 months</td>
+                        <td>&euro;199.99</td>
+                    </tr>
+                    <tr class="piano-advance">
+                        <td style="color:blue">Advance Piano</td>
+                        <td>6 months</td>
+                        <td>&euro;399.99</td>
+                    </tr>
+                   </table> 
+            </section>
+            <section class="enroll" id="enroll">
+                <h3>Enroll your course now:</h3>
+                <div class="person-info" id="person-info">
+                    <h5>Your Information:</h5>
+                    <div class="data" id="data">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div class="data" id="data">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" />
+                    </div>
+                    <div class="data" id="data">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" />
+                    </div>
+                </div>
+                <div class="course-info" id="course-info">
+                    <h5>Select your course:</h5>
+                    <input type="checkbox" id="guitar-beginner">
+                    <label for="guitar-beginner">Beginner Guitar</label>
+                    <br/>
+                    <input type="checkbox" id="guitar-advance">
+                    <label for="guitar-advance">Advance Guitar</label>
+                    <br/>
+                    <input type="checkbox" id="violin-beginner">
+                    <label for="violin-beginner">Beginner Violin</label>
+                    <br/>
+                    <input type="checkbox" id="violin-advance">
+                    <label for="violin-advance">Advance Violin</label>
+                    <br/>
+                    <input type="checkbox" id="piano-beginner">
+                    <label for="piano-beginner">Beginner Piano</label>
+                    <br/>
+                    <input type="checkbox" id="piano-advance">
+                    <label for="piano-advance">Advance Piano</label>
+                    <br/>
+                </div>
+                <div class="time">
+                    <h5>Select Your Suitable Timeframe</h5>
+                    <input id="weekdays" type="radio" name="timeframe" value="weekdays">
+                    <label for="weekdays">During the weekdays: (8AM to 10AM)</label>
+                    <br/>
+                    <input id="weekends" type="radio" name="timeframe" value="weekdends">
+                    <label for="weekends">During the weekends: (8AM to 10AM)</label>
+                </div>
+                <button onclick="enrolled()">Enroll</button>
+            </section>
+        </main>
+        <footer class="contact" id="contact">
+            <h3>Talented Musical School &reg;</h3>
+            <div class="address" id="address">
+                <h4>123 Maple Rd, Los Angeles, CA 99000</h4>
+                <h4>Tel: 123 456 789</h4>
+                <h4>Email: talented@musical.com</h4>
+            </div>
+        </footer>
+    </body>
+</html>

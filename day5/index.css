@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(243, 240, 232);
+}
+
+header {
+    background-image: url(images/banner.jpg);
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 40px;
+    color: rgb(41, 12, 157);
+    text-shadow: 2px 2px #b0c3d8;            /* Sets text color to blue */
+    text-align: center;       /* Centers the text */
+    font-family: Arial;
+    padding-top: 20px;
+    top: 0;       /* Changes the font style */
+}
+
+nav {
+    background-color: transparent;
+}
+
+ul {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li {
+    background-color: transparent;
+    padding: 20px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #b0c3d8;
+}
+
+li :hover {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(58, 58, 219);
+    text-shadow: 5px 5px #687ce3; ;
+}
+
+main {
+    width: 80%;
+    margin:  0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    margin: 10px auto;
+    padding: 5px 100px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+courses table tr {
+    padding-top: 10px;
+}
+
+button {
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button :active {
+    color: gray;
+}
+
+.data {
+    display: flex;
+}
+
+.data label {
+    padding-top: 8px;
+    width: 20%;
+}
+
+.data input {
+    margin: 6px;
+}
+
+footer {
+    display: flex;
+}
+
+footer h3 {
+    margin: auto;
+    color: blue;
+}
+
+.address {
+    margin: auto;
+}
+
+.audio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video {
+    display: grid;
+    place-items: center;
+    gap: 60px;
+}
