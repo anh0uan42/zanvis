@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Strichpunkt+Sans:wght@400..900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>Talented School</title>
+    </head>
+    <body>
+        <header>
+            <h1>Talented School</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Enrollment</h2>
+                <div class="student-info">
+                    <h3>Your Student Information</h3>
+                    <form>
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="firstname" id="firstname" name="firstname" />
+                        <br>
+                        <label for="lastname">Last Name</label>
+                        <input type="lastname" class="lastname" name="lastname" id="lastname" />
+                        <br>
+                        <label for="middlename">Middle Name</label>
+                        <input type="middlename" class="middlename" name="middlename" id="middlename" />
+                        <br>
+                    </form>
+                </div>
+                <div>
+                    <h3>Welcome back!<span class="fullname" id="fullname"></span></h3>
+                </div>
+                <div>
+                    <h3>Checking grade!</h3>
+                    <form class="calculator-form">
+                        <h5>Subject 1</h5>
+                        <label for="s1midterm">Midterm</label>
+                        <input type="number" class="calc-input" >
+                        <label for="s1final">Final</label>
+                        <input type="number" class="calc-input" >
+                        <p>Avg: <span class="result-display"></span></p>
+
+                    </form>
+                    <form class="calculator-form">
+                        <h5>Subject 2</h5>
+                        <label for="s2midterm">Midterm</label>
+                        <input type="number" class="calc-input" >
+                        <label for="s2final">Final</label>
+                        <input type="number" class="calc-input" >
+                        <p>Avg: <span class="result-display"></span></p>
+                    </form>
+                    <form class="calculator-form">
+                        <h5>Subject 3</h5>
+                        <label for="s3midterm">Midterm</label>
+                        <input type="number" class="calc-input" >
+                        <label for="s1final">Final</label>
+                        <input type="number" class="calc-input" >
+                        <p>Avg: <span class="result-display"></span></p>                       
+                    </form>
+                    <h3 class="result" id="result"></h3>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
