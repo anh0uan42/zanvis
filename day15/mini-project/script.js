@@ -1,10 +1,10 @@
 let transactions = [];
 
-const balanceEl = document.getElementById('balance');
-const incomeTotalEl = document.getElementById('income-total');
-const expenseTotalEl = document.getElementById('expense-total');
-const listEl = document.getElementById('transaction-list');
-const formEl = document.getElementById('transaction-form');
+const balanceElement = document.getElementById('balance');
+const incomeTotalElement = document.getElementById('income-total');
+const expenseTotalElement = document.getElementById('expense-total');
+const listElement = document.getElementById('transaction-list');
+const formElement = document.getElementById('transaction-form');
 const textInput = document.getElementById('text');
 const typeInput = document.getElementById('type');
 const amountInput = document.getElementById('amount');
@@ -34,8 +34,8 @@ function removeTransaction(id) {
 
 function updateUI() {
 
-    listEl.html = "";
-    listEl.innerHTML = "";
+    listElement.html = "";
+    listElement.innerHTML = "";
 
     let totalIncome = 0;
     let totalExpenses = 0;
@@ -63,15 +63,15 @@ function updateUI() {
                     </div>
                 `;
 
-        listEl.appendChild(item);
+        listElement.appendChild(item);
     });
 
     const netBalance = totalIncome - totalExpenses;
 
-    balanceEl.innerText = `${netBalance < 0 ? '-' : ''}$${Math.abs(netBalance).toFixed(2)}`;
-    incomeTotalEl.innerText = `+$${totalIncome.toFixed(2)}`;
-    expenseTotalEl.innerText = `-$${totalExpenses.toFixed(2)}`;
+    balanceElement.innerText = `${netBalance < 0 ? '-' : ''}$${Math.abs(netBalance).toFixed(2)}`;
+    incomeTotalElement.innerText = `+$${totalIncome.toFixed(2)}`;
+    expenseTotalElement.innerText = `-$${totalExpenses.toFixed(2)}`;
 }
 
-formEl.addEventListener('submit', addTransaction);
+formElement.addEventListener('submit', addTransaction);
 updateUI();
