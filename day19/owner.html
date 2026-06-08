@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="owner.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Strichpunkt+Sans:wght@400..900&display=swap" rel="stylesheet">
+        <title>Employee Portal</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Zanvis Employee Portal</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="employee.html">Employee Dashboard</a></li>
+                    <li><a href="team-lead.html">Team Lead Dashboard</a></li>
+                    <li><a href="owner.html">Owner Dashboad</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="owner-dash">
+                <h2>Owner Dashboad</h2>
+                <div class="dash-container">
+                    <div class="dash-header">
+                        <h3 id="completed-task">Completed Task</h3>
+                        <h3 id="in-progress">In-progress Task</h3>
+                        <h3 id="pending-task">Pending Task</h3>
+                    </div>
+                    <div class="owner-list" id="self-service-div">
+                        <ul id="task-display">
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h3>Zanvis</h3>
+            <div class="contact">
+                <h6>123 Maple Rd, Los Angeles, CA 99000</h6>
+                <h6>Tel: 123 456 789</h6>
+                <h6>Website: zanvis.com</h6>
+                <h6>Email: zanvis@portal.com</h6>
+            </div>
+        </footer>
+    </body>
+</html>
