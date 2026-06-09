@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background: linear-gradient(360deg,rgba(3, 71, 30, 1) 0%, rgba(3, 67, 87, 1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+button {
+    all: unset;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: rgba(13, 166, 200, 0.19);
+    padding-top: 1rem;
+}
+
+.banner {
+    grid-column: 2;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(240, 104, 7, 0.756);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+nav ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.registration {
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration button {
+    text-align: center;
+    margin: .5rem 1.5rem;
+    border-radius: .125rem;
+    color: rgb(27, 1, 92);
+    padding: .125rem .25rem;
+    background-color: rgba(128, 128, 128, 0.662);
+    transition: .3s;
+}
+
+.registration button:hover {
+    scale: 1.1;
+    background-color: rgba(199, 197, 197, 0.926);
+}
+
+
+nav ul li a {
+    margin: 1rem;
+    padding: .25rem .75rem;
+    text-decoration: none;
+    color: rgba(240, 104, 7, 0.756);
+    border-radius: .25rem;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: rgb(60, 26, 1);
+    background-color: rgba(149, 245, 176, 0.559);
+}
+
+footer {
+    background-color: rgba(13, 166, 200, 0.19);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    color:  rgba(186, 80, 5, 0.756);
+}
+
+footer h3 {
+    display: flex;
+    align-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+section {
+    width: 85%;
+    margin: 2rem auto;
+    background-color: rgba(35, 23, 1, 0.259);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem auto;
+    color: rgba(242, 106, 9, 0.756)
+}
+
+p {
+    margin: 2rem;
+    color:  rgba(201, 86, 3, 0.858);
+}
+
+.card-container {
+    display: flex;
+    overflow: scroll;
+}
+
+.card {
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: .5rem;
+    text-align: center;
+    transition: .3s;
+}
+
+.card:hover {
+    scale: 1.05;
+    border: 1px solid rgba(0, 0, 0, 0.579);
+}
+
+.card img {
+    border: .15rem solid rgba(2, 69, 2, 0.622);
+    border-radius: .3rem;
+    margin: .5rem;
+    width: 15rem;
+    background-color: transparent;
+}
+
+.card p {
+    font-size: .75rem;
+    text-align: left;
+    margin: .5rem 1rem;
+}
+
+.card h4 {
+    color: rgba(222, 94, 3, 0.756);
+    text-align: center;
+}
+
+.card button {
+    margin: 1rem auto;
+    font-size: .75rem;
+    background-color: green;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    transition: .3s;
+}
+
+.card button:hover {
+    scale: 1.05;
+    font-weight: bold;
+}
+
+#sign-in {
+    display: none;
+}
+
+#sign-up {
+    display: none;
+}
+
+form {
+    border-radius: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    background-color: rgba(164, 162, 162, 0.873);
+}
+
+form h3 {
+    margin: 2rem auto;
+}
+
+form button {
+    margin: 1rem auto;
+    background-color: rgb(3, 183, 3);
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    transition: .3s;
+}
+
+form button:hover {
+    scale: 1.05;
+    font-weight: bold;
+}
+
+.input-container {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+}
