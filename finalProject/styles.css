@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+section {
+    margin: 1rem 3rem;
+}
+
+ul, ol {
+    padding-left: 3rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
